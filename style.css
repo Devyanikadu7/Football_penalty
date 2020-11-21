@@ -1,0 +1,107 @@
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container
+{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    padding: 50px;
+    align-self: center;
+    border-radius: 20px;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+.col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container>.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.pic
+{
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.name{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.score
+{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 130px;
+}
+.runs{
+    font-size:xx-large ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    justify-content: space-evenly;
+}
+#strikebutton
+{
+    background: linear-gradient(to right,#cc5029,#e8b132) ;
+    width: 300px;
+    height: 50px;
+    font-size: large;
+    color: white;
+    /* padding: 10px; */
+    margin-top: 55px;
+    /* margin-bottom: -50px; */
+    border-radius: 25px;
+    outline: none;
+    align-items: center;
+    border: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tryagain{
+    background: linear-gradient(to right,#cc5029,#e8b132) ;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    color: white;
+    /* padding: 10px; */
+    margin-top: 55px;
+    /* margin-bottom: -50px; */
+    border-radius: 25px;
+    outline: none;
+    align-items: center;
+    border: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#result{
+    font-size: xx-large;
+    background: linear-gradient( to right,#c9b72b,#92d962); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    /* color:linear-gradient(to right,#e3da93,#aad463); */
+    text-align: center;
+    font-weight: bold;
+    /* margin-top: 50px; */
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dot{
+    height: 25px;
+  width: 25px;
+  background-color:white;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid black ;
+}
